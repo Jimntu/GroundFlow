@@ -1,30 +1,39 @@
 # GroundFlow: A Plug-in Module for Temporal Reasoning on 3D Point Cloud Sequential Grounding
-[ICCV 2025]
+[ICCV 2025] 
 Paper Link: https://arxiv.org/pdf/2506.21188
-## Description
+## Framework
 
-An in-depth paragraph about your project and overview of use.
+<p align="center">
+  <img src="assets/GroundFlow.png" alt="Framework overview" width="85%"/>
+</p>
 
 ## Getting Started
 
-### Dependencies
+### Prerequisite
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 
-### Installing
+```
+conda env create --name groundflow 
+pip3 install torch==2.0.0
+pip3 install torchvision==0.15.1
+pip3 install -r requirements.txt
+```
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
-### Executing program
 
-* How to run the program
+
+* Please 
 * Step-by-step bullets
 ```
 code blocks for commands
 ```
-
+## Results
+<p align="center">
+  <img src="assets/Result.png" alt="Framework overview" width="85%"/>
+</p>
+<p align="center">
+  <img src="assets/Visualization.png" alt="Framework overview" width="85%"/>
+</p>
 ## Help
 
 Any advise for common problems or issues.
