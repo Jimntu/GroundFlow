@@ -1,0 +1,6 @@
+# ninja log v5
+1	19384	1734938379706117342	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/bindings.o	4372edf3974e6e2e
+0	19878	1734938380199123271	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/ball_query.o	cf7359ea58289ab
+1	19892	1734938380215123463	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/group_points.o	1afd7b535e1d53e9
+2	20286	1734938380607128177	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/interpolate.o	9877d7049592c8d2
+3	20455	1734938380774130185	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/sampling.o	a7092f786408791

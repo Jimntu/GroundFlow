@@ -1,0 +1,24 @@
+# ninja log v5
+4	12610	1734937488722552047	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/sampling.o	476fd8f68b897520
+1	12624	1734937488738552231	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/ball_query.o	60b493868d08a027
+2	12636	1734937488749552358	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/group_points.o	4339269101f9eec
+2	12646	1734937488756552440	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/bindings.o	f4b1de80673df1c4
+3	12816	1734937488928554427	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/interpolate.o	ecf8fa02c526af92
+31	12962	1734939249839478868	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/sampling.o	f26b814931f789f7
+29	13067	1734939249946480135	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/group_points.o	858f2253d389e4d5
+27	13154	1734939250033481165	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/ball_query.o	21364cabc67b3ae8
+28	13264	1734939250141482444	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/bindings.o	3970ebb8297656b1
+30	14835	1734939251710501022	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/interpolate.o	a05f0bb347c04fba
+40	13743	1734939969380984902	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/interpolate_gpu.o	f74355094f39551e
+39	14161	1734939969798989839	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/group_points_gpu.o	16ab2c7fbd4d4b29
+41	14655	1734939970291995661	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/sampling_gpu.o	49248204b7edd59f
+38	14753	1734939970388996806	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/ball_query_gpu.o	52883bafcf8afece
+46	12864	1734940077963278939	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/ball_query.o	60b493868d08a027
+47	13055	1734940078154281233	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/bindings.o	f4b1de80673df1c4
+48	13131	1734940078228282122	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/group_points.o	4339269101f9eec
+50	13202	1734940078298282963	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/interpolate.o	ecf8fa02c526af92
+51	13263	1734940078358283684	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/sampling.o	476fd8f68b897520
+50	14268	1734940079340295480	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/interpolate_gpu.o	9a8b0797b31fa600
+52	14668	1734940079737300249	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/sampling_gpu.o	84bb31b8329cab0d
+46	14707	1734940079776300718	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/ball_query_gpu.o	c9d27f12c6d62a7d
+49	14726	1734940079791300898	/home/zijun/code/sg3d/modules/third_party/pointnet2/build/temp.linux-x86_64-cpython-39/_ext_src/src/group_points_gpu.o	cf5cdf62b0012a30
