@@ -3,7 +3,7 @@ Paper Link: https://arxiv.org/pdf/2506.21188
 ## Framework
 
 <p align="center">
-  <img src="assets/GroundFlow.png" alt="Framework overview" width="85%"/>
+  <img src="assets/GroundFlow.png" alt="Framework overview" width="95%"/>
 </p>
 
 ## Prerequisite
