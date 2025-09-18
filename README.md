@@ -40,10 +40,10 @@ python3 run.py --config-path configs/query --config-name sequential-sceneverse.y
 
 ## Results
 <p align="center">
-  <img src="assets/Result.png" alt="Framework overview" width="85%"/>
+  <img src="assets/Result.png" alt="Framework overview" width="95%"/>
 </p>
 <p align="center">
-  <img src="assets/Visualization.png" alt="Framework overview" width="85%"/>
+  <img src="assets/Visualization.png" alt="Framework overview" width="95%"/>
 </p>
 
 ## Acknowledgments
