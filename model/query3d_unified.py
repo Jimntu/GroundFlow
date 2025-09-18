@@ -31,7 +31,7 @@ class CoordinateEncoder(nn.Module):
         return pos
     
 @MODEL_REGISTRY.register()
-class Query3DUnified_GroundFlow(BaseModel): #v25
+class Query3DUnified_GroundFlow(BaseModel):
     def __init__(self, cfg):
         super().__init__(cfg)
         # record parameters
