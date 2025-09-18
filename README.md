@@ -1,7 +1,6 @@
-# Project Title
-
-Simple overview of use/purpose.
-
+# GroundFlow: A Plug-in Module for Temporal Reasoning on 3D Point Cloud Sequential Grounding
+[ICCV 2025]
+Paper Link: https://arxiv.org/pdf/2506.21188
 ## Description
 
 An in-depth paragraph about your project and overview of use.
