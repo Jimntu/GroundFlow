@@ -1,39 +1,62 @@
-# <Project Title>: <Concise Tagline>
-[![Paper](https://img.shields.io/badge/Paper-PDF-informational)](<link-to-paper-or-arXiv>)
-[![Project Page](https://img.shields.io/badge/Project-Page-blue)](<link-to-project-page>)
-[![Video](https://img.shields.io/badge/Video-Demo-red)](<link-to-video>)
-[![License](https://img.shields.io/badge/License-<MIT>-green)](LICENSE)
+# Project Title
 
-**Conference:** <Conference Name & Year>  
-**Codebase:** <Python/Framework/CUDA versions>  
-**Contact:** <contact@your.edu>
+Simple overview of use/purpose.
 
----
+## Description
+
+An in-depth paragraph about your project and overview of use.
+
+## Getting Started
+
+### Dependencies
+
+* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+* ex. Windows 10
+
+### Installing
+
+* How/where to download your program
+* Any modifications needed to be made to files/folders
+
+### Executing program
+
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
 
 ## Authors
-- <First Author>, <Affiliation>
-- <Second Author>, <Affiliation>
-- <Third Author>, <Affiliation>
-- <Fourth Author>, <Affiliation>
 
-(*Add notes like “† equal contribution” or “✉ corresponding author” if needed.*)
+Contributors names and contact info
 
----
+ex. Dominique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
 
-## Teaser Figure
-![Overview or Teaser](docs/img/teaser.png)
+## Version History
 
-*Figure 1. One-sentence caption summarizing the method/task. Replace `docs/img/teaser.png` with your image path.*
+* 0.2
+    * Various bug fixes and optimizations
+    * See [commit change]() or See [release history]()
+* 0.1
+    * Initial Release
 
----
+## License
 
-## Installation
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
-**Tested on:** <OS>, <Python X.Y>, <CUDA XX.X>, <Driver XXX.X>  
-(*Edit the versions to match your setup.*)
+## Acknowledgments
 
-### 1) Create environment
-```bash
-# Conda (recommended)
-conda create -n <env_name> python=3.10 -y
-conda activate <env_name>
+Inspiration, code snippets, etc.
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* [dbader](https://github.com/dbader/readme-template)
+* [zenorocha](https://gist.github.com/zenorocha/4526327)
+* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
