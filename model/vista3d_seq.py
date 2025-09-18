@@ -12,7 +12,7 @@ import os
 logger = get_logger(__name__)
 
 @MODEL_REGISTRY.register()
-class Vista3DSeq_GroundFlow(BaseModel): #v25
+class Vista3DSeq_GroundFlow(BaseModel):
     def __init__(self, cfg):
         super().__init__(cfg)
         self.cfg = cfg
