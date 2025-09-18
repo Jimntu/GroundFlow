@@ -7,9 +7,7 @@ Paper Link: https://arxiv.org/pdf/2506.21188
   <img src="assets/GroundFlow.png" alt="Framework overview" width="85%"/>
 </p>
 
-## Getting Started
-
-### Prerequisite
+## Prerequisite
 
 
 ```
@@ -19,14 +17,28 @@ pip3 install torchvision==0.15.1
 pip3 install -r requirements.txt
 ```
 
+* Please refer to [SG3D Benchmark](https://github.com/sg-3d/sg3d) to download the dataset and checkpoint. 
+* Change the TBD in config to the downloaded path.
 
+## Experimients
 
-
-* Please 
-* Step-by-step bullets
+### 3D-VisTA
 ```
-code blocks for commands
+python3 run.py --config-path configs/vista --config-name sequential-sceneverse-single.yaml
 ```
+### 3D-VisTA + GroundFlow
+```
+python3 run.py --config-path configs/vista --config-name sequential-sceneverse.yaml
+```
+### PQ3D
+```
+python3 run.py --config-path configs/query --config-name sequential-sceneverse-single.yaml
+```
+### PQ3D + GroundFlow
+```
+python3 run.py --config-path configs/query --config-name sequential-sceneverse.yaml
+```
+
 ## Results
 <p align="center">
   <img src="assets/Result.png" alt="Framework overview" width="85%"/>
@@ -34,37 +46,22 @@ code blocks for commands
 <p align="center">
   <img src="assets/Visualization.png" alt="Framework overview" width="85%"/>
 </p>
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+We gratefully acknowledge the open-source projects that our work builds upon.
+* [SG3D](https://github.com/sg-3d/sg3d)
+* [LEO](https://github.com/embodied-generalist/embodied-generalist)
+* [3D-VisTA](https://github.com/3d-vista/3D-VisTA)
+
+## Citation
+If you find our work useful in your research, please cite it as follows:
+```
+@inproceedings{GroundFlow_Lin,
+  title={GroundFlow: A Plug-in Module for Temporal Reasoning on 3D Point Cloud Sequential Grounding},
+  author={Lin, Zijun and He, Shuting and Tan, Cheston and Wen, Bihan},
+  booktitle={ICCV},
+  year={2025}
+}
+```
+
