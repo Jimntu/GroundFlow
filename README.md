@@ -1,5 +1,4 @@
-# GroundFlow: A Plug-in Module for Temporal Reasoning on 3D Point Cloud Sequential Grounding
-[ICCV 2025] 
+# [ICCV 2025] GroundFlow: A Plug-in Module for Temporal Reasoning on 3D Point Cloud Sequential Grounding
 Paper Link: https://arxiv.org/pdf/2506.21188
 ## Framework
 
