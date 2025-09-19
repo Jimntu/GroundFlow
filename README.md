@@ -31,11 +31,11 @@ python3 run.py --config-path configs/vista --config-name sequential-sceneverse.y
 ```
 ### PQ3D
 ```
-python3 run.py --config-path configs/query --config-name sequential-sceneverse-single.yaml
+python3 run.py --config-path configs/query3d --config-name sequential-sceneverse-single.yaml
 ```
 ### PQ3D + GroundFlow
 ```
-python3 run.py --config-path configs/query --config-name sequential-sceneverse.yaml
+python3 run.py --config-path configs/query3d --config-name sequential-sceneverse.yaml
 ```
 
 ## Results
