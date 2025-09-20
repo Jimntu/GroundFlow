@@ -53,6 +53,7 @@ We gratefully acknowledge the open-source projects that our work builds upon.
 * [LEO](https://github.com/embodied-generalist/embodied-generalist)
 * [3D-VisTA](https://github.com/3d-vista/3D-VisTA)
 
+✉️ Feel free to email me (zijun002@e.ntu.edu.sg) or raise the issue if you have any questions about our work.
 ## Citation
 If you find our work useful in your research, please cite it as follows:
 ```
