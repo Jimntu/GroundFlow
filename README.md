@@ -57,7 +57,7 @@ We gratefully acknowledge the open-source projects that our work builds upon.
 ## Citation
 If you find our work useful in your research, please cite it as follows:
 ```
-@inproceedings{GroundFlow_Lin,
+@inproceedings{GroundFlow,
   title={GroundFlow: A Plug-in Module for Temporal Reasoning on 3D Point Cloud Sequential Grounding},
   author={Lin, Zijun and He, Shuting and Tan, Cheston and Wen, Bihan},
   booktitle={ICCV},
