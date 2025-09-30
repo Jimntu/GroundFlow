@@ -60,7 +60,7 @@ If you find our work useful in your research, please cite it as follows:
 @inproceedings{GroundFlow,
   title={GroundFlow: A Plug-in Module for Temporal Reasoning on 3D Point Cloud Sequential Grounding},
   author={Lin, Zijun and He, Shuting and Tan, Cheston and Wen, Bihan},
-  booktitle={ICCV},
+  booktitle={IEEE/CVF International Conference on Computer Vision (ICCV)},
   year={2025}
 }
 ```
