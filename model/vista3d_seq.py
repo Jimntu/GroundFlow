@@ -204,47 +204,6 @@ class Vista3DSeq_Single(BaseModel):
             data_dict['txt_lm_cls_logits'] = txt_lm_cls_logits
 
         
-        # Details of the keys of data_dict could be found in sceneverse_base/sequential_grounding/wrapper
-        # Single Step
-        # print(data_dict.keys())
-        # dict_keys(['tgt_obj_boxes', 'tgt_object_id', 'tgt_object_label', 'obj_fts', 'obj_locs', 'obj_labels', 'obj_boxes', 'obj_ids',
-        # 'obj_pad_masks', 'tgt_object_id_iou25', 'tgt_object_id_iou50', 'pc_seg_fts', 'pc_seg_pad_masks', 'query_locs', 
-        # 'query_pad_masks', 'coord_min', 'coord_max', 'seg_center', 'seg_pad_masks', 'txt_ids', 'txt_masks', 'prompt', 
-        # 'prompt_pad_masks', 'response', 'data_idx', 'sentence', 'obj_key', 'scan_id', 'is_multiple', 'task_id', 'prompt_type', 
-        # 'cur_step', 'total_steps', 'obj_cls_raw_logits', 'txt_cls_logits', 'obj_cls_post_logits', 'obj_cls_pre_logits', 'og3d_logits',
-        # 'ground_logits', 'ground_label'])
-        
-        # For Single Data_dict:
-        # tgt_obj_boxes --> only for evaluation, [x,y,z,dx,dy,dz]
-        # tgt_object_id --> target id in each scan
-        # tgt_object_label ---> sg3d/scene_verse_base/ScanNet/annotations/meta_data/scannetv2_raw_categories.json O(607)
-        # obj_fts --> pcd after centering and normalization [B,N,1024,6]
-        # obj_locs --> center and size of 1024 points
-        # obj_ids --> list of all obj_ids in the scan
-        # obj_labels --> list of all obj_labels in the scan
-        # obj_boxes --> center and size of BBox
-        # obj_pad_masks --> torch.ones((len(obj_locs))
-        # data_idx --> scan_id + {i} i is the index of each task in sg3d, as long as the task is the same, data_idx would be the same
-        # sentence --> texts of task + prev steps
-        # obj_key --> return from release data sg3d, value is the index of the id in each scan
-        # scan_id --> id of the scan
-        # is_multiple --> whether target has same class of object in the scan
-        # task_id --> 0 for the refer task, 1 for the QA task, 2 for the caption task
-        # coord_min = data_dict['obj_locs'][:, :3].min(0)[0]
-        # coord_max = data_dict['obj_locs'][:, :3].max(0)[0]
-        # txt_ids --> longtensor task info + prev step instruct embeddings [B,T]
-        # txt_masks --> torch.ones((len(txt_ids)))
-        # prompt --> floattensor task info + prev step instruct embeddings [B,T]
-        # prompt_pad_masks = torch.ones((len(prompt)))
-        # prompt_type --> TXT = 1, IMAGE = 2, LOC = 3
-        # obj_cls_raw_logits --> the predicted class of the object [B, N, O]
-        # txt_cls_logits --> language_fuse_feature after mlp [B,O]
-        # obj_cls_post_logits --> point_fuse_feature after mlp [B,N,O]
-        # obj_cls_pre_logits --> point feature w/o transformer and fusion after mlp [B,N,O]
-        # og3d_logits --> point_fuse_feature after mlp [B,N] 
-        # ground_logits --> same as og3d_logits
-        # ground_label --> tgt_object_id
-        
         return data_dict
 
     def get_opt_params(self):

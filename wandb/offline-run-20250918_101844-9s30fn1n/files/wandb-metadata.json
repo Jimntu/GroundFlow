@@ -1,0 +1,65 @@
+{
+  "os":  "Linux-6.8.0-49-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.9.21",
+  "startedAt":  "2025-09-18T10:18:44.171922Z",
+  "args":  [
+    "--config-path",
+    "configs/sequential",
+    "--config-name",
+    "sequential-sceneverse.yaml"
+  ],
+  "program":  "/home/zijun/code/GroundFlow/run.py",
+  "codePath":  "run.py",
+  "git":  {
+    "remote":  "https://github.com/Jimntu/GroundFlow.git",
+    "commit":  "74f6c94d6e4de6750436e1eb5c94c56a7b8b13ac"
+  },
+  "root":  "/home/zijun/code/GroundFlow",
+  "host":  "40a990e5ddee",
+  "executable":  "/home/zijun/anaconda3/envs/sg3d/bin/python3",
+  "codePathLocal":  "run.py",
+  "cpu_count":  80,
+  "cpu_count_logical":  160,
+  "gpu":  "NVIDIA A100 80GB PCIe",
+  "gpu_count":  4,
+  "disk":  {
+    "/":  {
+      "total":  "3778773131264",
+      "used":  "1871610499072"
+    }
+  },
+  "memory":  {
+    "total":  "1081841950720"
+  },
+  "cpu":  {
+    "count":  80,
+    "countLogical":  160
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA A100 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A100 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A100 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A100 80GB PCIe",
+      "memoryTotal":  "85899345920",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.4"
+}

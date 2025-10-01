@@ -187,6 +187,7 @@ class SequentialGroundingEval(BaseEvaluator):
 
         return metrics #the metrics contain the overall step and task acc
 
+
 @EVALUATOR_REGISTRY.register()
 class SequentialGroundingSingleStepEval(BaseEvaluator):
     def __init__(self, cfg, accelerator, **kwargs):

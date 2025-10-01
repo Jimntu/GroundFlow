@@ -1,0 +1,15 @@
+{"time":"2025-09-18T11:17:55.547309907Z","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-09-18T11:17:55.547500585Z","level":"INFO","msg":"created symlink","path":"/home/zijun/code/GroundFlow/wandb/offline-run-20250918_111755-azddetp5/logs/debug-core.log"}
+{"time":"2025-09-18T11:17:56.178422385Z","level":"INFO","msg":"created new stream","id":"azddetp5"}
+{"time":"2025-09-18T11:17:56.178518117Z","level":"INFO","msg":"stream: started","id":"azddetp5"}
+{"time":"2025-09-18T11:17:56.178588224Z","level":"INFO","msg":"sender: started","stream_id":"azddetp5"}
+{"time":"2025-09-18T11:17:56.178593979Z","level":"INFO","msg":"writer: Do: started","stream_id":"azddetp5"}
+{"time":"2025-09-18T11:17:56.178686046Z","level":"INFO","msg":"handler: started","stream_id":"azddetp5"}
+{"time":"2025-09-18T11:17:56.184774092Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-18T11:19:11.107115151Z","level":"INFO","msg":"stream: closing","id":"azddetp5"}
+{"time":"2025-09-18T11:19:11.107201402Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-18T11:19:11.10887127Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-18T11:19:11.109321412Z","level":"INFO","msg":"handler: closed","stream_id":"azddetp5"}
+{"time":"2025-09-18T11:19:11.109342384Z","level":"INFO","msg":"writer: Close: closed","stream_id":"azddetp5"}
+{"time":"2025-09-18T11:19:11.109357997Z","level":"INFO","msg":"sender: closed","stream_id":"azddetp5"}
+{"time":"2025-09-18T11:19:11.10959301Z","level":"INFO","msg":"stream: closed","id":"azddetp5"}
