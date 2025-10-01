@@ -46,6 +46,11 @@ python3 run.py --config-path configs/query3d --config-name sequential-sceneverse
   <img src="assets/Visualization.png" alt="Framework overview" width="95%"/>
 </p>
 
+## ICCV Poster
+<p align="center">
+  <img src="assets/GroundFlow_Poster.png" alt="Framework overview" width="95%"/>
+</p>
+
 ## Acknowledgments
 
 We gratefully acknowledge the open-source projects that our work builds upon.
